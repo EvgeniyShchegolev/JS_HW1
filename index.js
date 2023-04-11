@@ -13,7 +13,7 @@ while (numberTries > 0) {
 
     numberTries--;
 
-    if (numberUser == number) {
+    if (numberUser === number) {
         alert("Вы угадали число!");
         break;
     } else if (numberUser < number) {
